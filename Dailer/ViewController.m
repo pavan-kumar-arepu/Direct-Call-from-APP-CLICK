@@ -17,10 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-//    
-//    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:[NSString stringWithFormat:@"tel:%@",@"8977083642"]]];
-    
-      [[UIApplication sharedApplication] openURL:[NSURL URLWithString:[NSString stringWithFormat:@"tel:%@",@"9948471287"]]];
+
     
     // Do any additional setup after loading the view, typically from a nib.
 }
@@ -31,8 +28,8 @@
 }
 
 
-    
-//    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:[NSString stringWithFormat:@"tel:%@",@"9948471287"]]];
-    
+
+
+
 
 @end

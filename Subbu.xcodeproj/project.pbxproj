@@ -13,8 +13,6 @@
 		F473DF2E1C60A6B8009BF9EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F473DF2C1C60A6B8009BF9EC /* Main.storyboard */; };
 		F473DF301C60A6B8009BF9EC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F473DF2F1C60A6B8009BF9EC /* Images.xcassets */; };
 		F473DF3F1C60A6B8009BF9EC /* DailerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F473DF3E1C60A6B8009BF9EC /* DailerTests.m */; };
-		F4F4E9901C7089C000B50D29 /* 80_80.png in Resources */ = {isa = PBXBuildFile; fileRef = F4F4E98F1C7089C000B50D29 /* 80_80.png */; };
-		F4F4E9941C708B0400B50D29 /* 80.png in Resources */ = {isa = PBXBuildFile; fileRef = F4F4E9931C708B0400B50D29 /* 80.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F40E313D1C7A399D00DB6A89 /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
 		F473DF1F1C60A6B8009BF9EC /* Subbu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Subbu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F473DF231C60A6B8009BF9EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F473DF241C60A6B8009BF9EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,8 +39,6 @@
 		F473DF381C60A6B8009BF9EC /* Subbu.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Subbu.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F473DF3D1C60A6B8009BF9EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F473DF3E1C60A6B8009BF9EC /* DailerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DailerTests.m; sourceTree = "<group>"; };
-		F4F4E98F1C7089C000B50D29 /* 80_80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 80_80.png; sourceTree = "<group>"; };
-		F4F4E9931C708B0400B50D29 /* 80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 80.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,11 +82,10 @@
 			children = (
 				F473DF261C60A6B8009BF9EC /* AppDelegate.h */,
 				F473DF271C60A6B8009BF9EC /* AppDelegate.m */,
+				F40E313D1C7A399D00DB6A89 /* Constant.h */,
 				F473DF291C60A6B8009BF9EC /* ViewController.h */,
 				F473DF2A1C60A6B8009BF9EC /* ViewController.m */,
 				F473DF2C1C60A6B8009BF9EC /* Main.storyboard */,
-				F4F4E9931C708B0400B50D29 /* 80.png */,
-				F4F4E98F1C7089C000B50D29 /* 80_80.png */,
 				F473DF2F1C60A6B8009BF9EC /* Images.xcassets */,
 				F473DF221C60A6B8009BF9EC /* Supporting Files */,
 			);
@@ -202,10 +198,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4F4E9941C708B0400B50D29 /* 80.png in Resources */,
 				F473DF2E1C60A6B8009BF9EC /* Main.storyboard in Resources */,
 				F473DF301C60A6B8009BF9EC /* Images.xcassets in Resources */,
-				F4F4E9901C7089C000B50D29 /* 80_80.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

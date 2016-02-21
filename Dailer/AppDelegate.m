@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "Constant.h"
+
 
 @interface AppDelegate ()
 
@@ -17,6 +19,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:[NSString stringWithFormat:@"tel:%@",MobileNumber]]];
+    
+
     return YES;
 }
 

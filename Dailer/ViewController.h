@@ -10,8 +10,6 @@
 
 @interface ViewController : UIViewController
 
-@property (weak, nonatomic) IBOutlet UITextField *numberTextFeild;
-- (IBAction)call:(id)sender;
-
+@property(nonatomic,strong) NSString *mySampleString;
 @end
 
